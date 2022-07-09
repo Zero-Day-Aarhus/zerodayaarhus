@@ -41,7 +41,7 @@ jobs:
       - name: checkout production
         uses: actions/checkout@v3
         with:
-          ref: production-test
+          ref: production
 
       - name: remove existing docs
         run: rm -rf ./docs
