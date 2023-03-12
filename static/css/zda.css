@@ -1,0 +1,42 @@
+body {
+  font-family: Andale Mono, monospace;
+  color: #00b000;
+  background-color: #000000;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+a {
+  color: #00ff00;
+}
+
+li a {
+  text-decoration: none;
+}
+li {
+  font-family: Andale Mono, monospace;
+  display: inline;
+}
+
+.title {
+  font-size: 55px;
+}
+
+hr {
+  border: 1.5px solid #00d000;
+}
+
+.content {
+  max-width: 885px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo-long {
+  border: 0.5px solid #00d000;
+  width: 885px;
+}
